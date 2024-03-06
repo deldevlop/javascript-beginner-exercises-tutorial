@@ -1,4 +1,8 @@
 // Declare and write your function here:
-
-
-standardsMaker();
+function standardsMaker(){
+    for(let i=0; i<299; i++){
+        console.log("I will write questions if I'm stuck");
+    }
+}
+let variable = standardsMaker();
+console.log(variable);
