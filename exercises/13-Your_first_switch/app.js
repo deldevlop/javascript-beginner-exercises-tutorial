@@ -21,10 +21,10 @@ let colorname = prompt('What color do you want?').trim();
 let isAvailable = getColor(colorname);
 
 if (isAvailable) {
-	console.log('Good news! That color is available');
+	console.log('Good news! That color ' +colorname+ ' is available');
 }
 
 else {
-	console.log('We are sorry, that color is not available');
+	console.log('We are sorry, that color ' +colorname+ ' is not available');
 }
 

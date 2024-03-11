@@ -16,11 +16,6 @@ var person2 = {
     significantOther: person
 };
 
-var person3 = {
-    name: "Jimmy",
-    lastName:"Doe",
-}
-
 var family = {
     lastName: "Doe",
     members: [person, person2]   //Array of objects, don't forget to add Jimmy
